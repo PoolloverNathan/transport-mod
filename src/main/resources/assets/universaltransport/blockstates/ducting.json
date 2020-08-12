@@ -1,0 +1,9 @@
+{"multipart": [
+                              {"apply": {"model": "universaltransport:block/glass_tube0", "uvlock": true                }},
+    {"when":  {"down" : true}, "apply": {"model": "universaltransport:block/glass_tube1", "uvlock": true, "x": 1, "y": 0}},
+    {"when":  {"north": true}, "apply": {"model": "universaltransport:block/glass_tube1", "uvlock": true, "x": 1, "y": 0}},
+    {"when":  {"west" : true}, "apply": {"model": "universaltransport:block/glass_tube1", "uvlock": true, "x": 1, "y": 1}},
+    {"when":  {"south": true}, "apply": {"model": "universaltransport:block/glass_tube1", "uvlock": true, "x": 1, "y": 2}},
+    {"when":  {"east" : true}, "apply": {"model": "universaltransport:block/glass_tube1", "uvlock": true, "x": 1, "y": 3}},
+    {"when":  {"up"   : true}, "apply": {"model": "universaltransport:block/glass_tube1", "uvlock": true, "x": 2, "y": 0}}
+                                                                                                                        ]}

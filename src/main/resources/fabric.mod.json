@@ -1,29 +1,29 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "universaltransport",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Universal Transport",
+  "description": "A mod about getting things from A to B",
   "authors": [
-    "Me!"
+    "PoolloverNathan"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "https://github.com/PoolloverNathan/transport-mod/wiki",
+    "sources": "https://github.com/PoolloverNathan/transport-mod"
   },
 
   "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "icon": "assets/universaltransport/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "tk.kulzers.fabric.universaltransport.UniversalTransport"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "universaltransport.mixins.json"
   ],
 
   "depends": {
