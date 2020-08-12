@@ -4,6 +4,8 @@ import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.client.itemgroup.FabricItemGroupBuilder;
 import net.minecraft.block.Block;
 import net.minecraft.block.Material;
+import net.minecraft.item.BlockItem;
+import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
@@ -22,6 +24,7 @@ public class UniversalTransport implements ModInitializer {
 		// Proceed with mild caution.
 
 		Registry.register(Registry.BLOCK, new Identifier("universaltransport", "ducting"), DUCTING_BLOCK);
+		Registry.register(Registry.ITEM, new Identifier("universaltransport", "ducting"), new BlockItem(DUCTING_BLOCK, new Item.Settings().group(ITEM_GROUP)));
 		System.out.println("Hello Fabric world!");
 	}
 }
